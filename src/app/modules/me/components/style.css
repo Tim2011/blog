@@ -1,0 +1,28 @@
+.me {
+  position: absolute;
+  left: 30px;
+  bottom: 20px;
+  padding: 30px;
+  transition: all 1s;
+  text-align: right;
+}
+.me-title {
+  font-size: 16px;
+  margin: 10px auto;
+}
+.me.skew {
+  transform:skewX(20deg)
+}
+.avatar {
+  width: 120px;
+  height: 120px;
+  border: 3px solid #aaf;
+  padding: 1px;
+  border-radius: 120px;
+  overflow: hidden;
+}
+
+.avatar img {
+  width: 120px;
+  height: 120px;
+}
