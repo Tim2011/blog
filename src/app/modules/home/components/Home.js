@@ -15,7 +15,7 @@ export default class Home extends Component {
   componentDidMount() {
     setTimeout(() => {
       this.setState({
-        skew: false,
+        skew: true,
       })
     }, 100)
   }
@@ -29,6 +29,9 @@ export default class Home extends Component {
           </div>
         </div>
         <div className="right-container">
+          <div className="motto">
+            世界上沒有什麼事情是一頓燒烤解決不了的，如果有，那就兩頓。
+          </div>
           <List />
         </div>
       </div>

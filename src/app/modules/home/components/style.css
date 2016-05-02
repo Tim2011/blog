@@ -48,3 +48,11 @@ html, body {
   min-height: 100%;
   background: #fff;
 }
+
+.motto {
+  padding: 10px;
+  text-align: right;
+  font-style: italic;
+  color: #ddd;
+  margin-top: 20px; 
+}

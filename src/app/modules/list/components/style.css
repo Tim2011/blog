@@ -1,0 +1,20 @@
+.article-list {
+  padding: 20px;
+}
+
+.article-item {
+  margin-bottom: 20px;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 20px;
+}
+.article-item:last-child {
+  border: none;
+}
+.article-item .title {
+  font-size: 25px;
+  margin: 10px auto;
+}
+.article-item .date {
+  font-size: 12px;
+  margin: 10px auto;
+}

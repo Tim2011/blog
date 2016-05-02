@@ -4,6 +4,8 @@ import _ from 'lodash';
 
 import Item from './Item';
 
+import './style.css';
+
 const container = connect(
   (state) => ({
     articles: _.get(state, 'articles.data'),
@@ -16,7 +18,7 @@ class List extends Component {
     const {articles} = this.props;
     
     return (
-      <div>
+      <div className="article-list">
       {
         _.map(articles, (d, i) =>
           <Item key={i} model={d} />
