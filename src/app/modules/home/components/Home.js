@@ -18,6 +18,11 @@ export default class Home extends Component {
         skew: true,
       })
     }, 100)
+
+    document.addEventListener('visibilitychange', (e) => {
+      if(document['visibilityState'] === 'hidden') document.title="嗨，回来~";
+      if(document['visibilityState'] === 'visible') document.title="無聊齋";
+    })
   }
 
   render() {
